@@ -7,20 +7,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '231saurus',
-  tagline: 'wazzup',
+  tagline: 'This is the way! or is it?',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://patrickalexander10.github.io/231saurus/',
+  url: 'https://patrickalexander10.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/231saurus',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'PatrickAlexander10', // Usually your GitHub org/user name.
   projectName: '231saurus', // Usually your repo name.
-  trailingSlash: true,                    // "true/" or "false"
+  trailingSlash: true,              // "true/" or "false"
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -79,7 +79,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://patrickalexander10.github.io/231saurus/',
+            href: 'https://github.com/PatrickAlexander10/231saurus/',
             label: 'GitHub',
             position: 'right',
           },
@@ -123,12 +123,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://patrickalexander10.github.io/231saurus/',
+                href: 'https://github.com/PatrickAlexander10/231saurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PatrickAlexander10, semoga nilainya bagus wkwk --- Revision: 01 - 14 May 2023`,
       },
       prism: {
         theme: lightCodeTheme,
