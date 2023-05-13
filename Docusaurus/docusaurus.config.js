@@ -7,19 +7,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '231saurus',
-  tagline: 'Wazzup',
+  tagline: 'wazzup',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://patrickalexander10.github.io/231saurus/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/231saurus/',
+  baseUrl: '/231saurus',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'PatrickAlexander10', // Usually your GitHub org/user name.
   projectName: '231saurus', // Usually your repo name.
+  trailingSlash: true,                    // "true/" or "false"
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -78,7 +79,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://patrickalexander10.github.io/231saurus/',
             label: 'GitHub',
             position: 'right',
           },
@@ -122,7 +123,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://patrickalexander10.github.io/231saurus/',
               },
             ],
           },
