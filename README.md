@@ -1,2 +1,2 @@
-# -231saurus
+# 231saurus
 Docusaurus
